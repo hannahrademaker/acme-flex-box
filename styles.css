@@ -1,0 +1,31 @@
+.nav {
+    list-style-type: none;
+    padding: 0; 
+    display: flex;
+    background-color: dodgerblue;
+    color: white
+}
+
+.nav li {
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+}
+
+.nav li:first-child {
+    font-size: 1.5rem;
+    justify-content: flex-start;
+}
+
+.nav :nth-child(2){
+    font-weight: bold;
+}
+
+@media (max-width: 600px){
+    .nav {
+        flex-direction: column;
+    }
+}
