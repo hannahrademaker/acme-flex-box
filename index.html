@@ -1,23 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
-<title>Acme Flex Box</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='styles.css'>
+    <title>Acme Flex Box</title>
 </head>
 <body>
 
+<!-- NAVIGATION BAR -->
 <header>
-    <div class = 'container'>
-        <ul class = 'nav'>
-            <li > <a href = "#"></a>Acme Layout</li>
-            <li> <a href = "#"></a>Users</li>
-            <li> <a href = "#"></a>Departments</li>
-            <li> <a href = "#"></a>Contact</li>
-        </ul>
-    </div>
+<div class = 'container'>
+    <ul class = 'nav'>
+        <li > <a href = '#'></a>Acme Layout</li>
+        <li> <a href = '#'></a>Users</li>
+        <li> <a href = '#'></a>Departments</li>
+        <li> <a href = '#'></a>Contact</li>
+    </ul>
+</div>
 
 </header>
+<!-- FORM SECTION  -->
+<section class = 'body'>
+<div class = 'userheader'>
+ Users
+</div>
+ 
+<!-- USER CARDS -->
+<div class = 'userCardRow'>
+    <div class = 'userContainer'>
+        <ul>
+            <li class = 'header'>
+                Create a User
+            </li>
+            <li class = 'userRow'>
+                <div class = 'userTitle'> 
+                    First Name 
+                </div>
+                <div class = 'userField'>
+                <input placeholder = 'Jane' class= 'userInput'/>
+                </div>
+            </li>
+            <li class = 'userRow'>
+                <div class = 'userTitle'> 
+                    Last Name 
+                </div>
+                <div class = 'userField'>
+                <input placeholder = 'Doe' class= 'userInput'/>
+                </div>
+            </li>
+            <li class = 'userRow'>
+                <div class = 'userTitle'> 
+                    Department
+                </div>
+                <div class = 'userField'>
+                    <select class="userSelect">
+                        <option>-- None --</option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                    </div>
+            </li>
 
+        </ul>
+        <div class = 'buttons'>
+        <button class = 'clear'>Clear</button>
+        <button class = 'save'>Save</button>
+    </div>
+    </div>
+</div>
+
+</section>
+
+<!-- USER CARDS -->
+<section class = 'users'>
+    <div>
+      <div class="card">
+        <h1 class = 'userTitle'>User A</h1>
+        <p class="cardColumn">
+            Some text for the user
+        </p>
+      </div>
+      <div class="card">
+        <h1 class = 'userTitle'>User A</h1>
+        <p class="cardColumn">
+            Some text for the user. Some text for the user. Some text for the user.
+            Some text for the user. Some text for the user. Some text for the user.
+        </p>
+      </div>
+      <div class="card">
+        <h1 class = 'userTitle'>User A</h1>
+        <p class="cardColumn">
+            Some text for the user
+        </p>
+      </div>
+      <div class="card">
+        <h1 class = 'userTitle'>User A</h1>
+        <p class="cardColumn">
+            Some text for the user
+        </p>
+      </div>
+      <div class="card">
+        <h1 class = 'userTitle'>User A</h1>
+        <p class="cardColumn">
+            Some text for the user
+        </p>
+      </div>
+      <div class="card">
+        <h1 class = 'userTitle'>User A</h1>
+        <p class="cardColumn">
+            Some text for the user
+        </p>
+      </div>
+      <div class="card">
+        <h1 class = 'userTitle'>User A</h1>
+        <p class="cardColumn">
+            Some text for the user
+        </p>
+      </div>
+    </div>
+  </section>
 
 </body>
 </html>

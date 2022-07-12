@@ -8,7 +8,7 @@
 
 .nav li {
     flex: 1;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana;
     display: flex;
     justify-content: center;
     padding: 1rem;
@@ -23,6 +23,86 @@
 .nav :nth-child(2){
     font-weight: bold;
 }
+
+.body{
+    display: flex;
+    font-family: verdana;
+    color: dimgray;
+    flex-direction: column;
+    
+}
+
+.userheader{
+    justify-content: flex-start;
+    margin-left: 1rem;
+    width: 100%;
+    font-size: 1.25rem;
+    font-weight: bold; 
+}
+
+.header{
+    list-style-type: none;
+    justify-content: flex-start;
+    font-size: 1.25rem;
+    font-weight: bold; 
+}
+
+.userCardRow {
+    display: flex;
+    justify-content: center;
+}
+
+.userContainer {
+    display: flex;
+    height: 25%;
+    width: 50%;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.userRow{
+    display: flex;
+    list-style-type: none;
+    align-items: left;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-top: 10px;
+}
+
+.userSelect{
+    color: black; 
+    align-items: center;
+    background-color: rgb(237, 233, 233);
+}
+
+.save {
+    background-color: dodgerblue;
+    color: white;
+    align-items: center;
+    
+}
+
+/* USER CARDS */
+
+  .users {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card {
+    display: flex;
+    border: 1px solid black;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    font-family: verdana;
+    font-size: 12px;
+    color: dimgray;
+  }
+  
+
+
 
 @media (max-width: 600px){
     .nav {
