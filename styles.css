@@ -125,5 +125,7 @@
         justify-content: flex-start;
        padding: .5rem
     }
-    
-}
+    .card {
+            width: 100%;
+          }
+    }
